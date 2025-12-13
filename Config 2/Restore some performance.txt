@@ -1,0 +1,7 @@
+; Edited by neil78@bilibili
+; Restore some performance
+; Please open Windows PowerShell (with Administrator Privileges)，and and input the following commands, and you're done
+ 
+Set-ProcessMitigation -Name "Client-Win64-Shipping.exe" -Disable CFG, SEHOP
+Set-ProcessMitigation -Name "Wuthering Waves.exe" -Disable CFG, SEHOP
+
